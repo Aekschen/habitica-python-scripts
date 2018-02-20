@@ -1,8 +1,9 @@
 import requests, time, json, datetime
 
-baseurl = "https://habitica.com/api/v3/"
 user_id = "....your user id here...."
 api_token = "....your api token here...."
+
+baseurl = "https://habitica.com/api/v3/"
 headers = {"x-api-user": user_id, "x-api-key": api_token, "Content-Type": "application/json"}
 
 
